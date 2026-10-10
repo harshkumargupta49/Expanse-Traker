@@ -1,0 +1,20 @@
+{
+  "name": "personal-expense-tracker",
+  "version": "1.0.0",
+  "description": "A modern, responsive personal expense tracker web application built with HTML5, CSS3, Vanilla JS, and Chart.js",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server .",
+    "build": "echo 'Static deployment ready'"
+  },
+  "keywords": [
+    "expense-tracker",
+    "dashboard",
+    "finance",
+    "chartjs",
+    "vanilla-js",
+    "vercel"
+  ],
+  "author": "Harsh",
+  "license": "MIT"
+}
