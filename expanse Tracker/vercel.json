@@ -17,6 +17,14 @@
         {
           "key": "X-XSS-Protection",
           "value": "1; mode=block"
+        },
+        {
+          "outputDirectory": "dist"
+        },
+        {
+        "rewrites": [
+          { "source": "/(.*)", "destination": "/index.html" }
+        ]
         }
       ]
     }
